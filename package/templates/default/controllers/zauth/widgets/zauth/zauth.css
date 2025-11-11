@@ -1,0 +1,78 @@
+/* small */
+.zauth_small{
+    height: 30px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+header .zauth_small{
+    float: right;
+    color: #fff;
+}
+.zauth_small a{
+    line-height: 30px;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-bottom: 0.2rem;
+}
+.zauth_small .zauth_vk{
+    background: url(v_small.png) no-repeat;
+}
+.zauth_small .zauth_ok{
+    background: url(o_small.png) no-repeat;
+}
+.zauth_small .zauth_fb{
+    background: url(f_small.png) no-repeat;
+}
+.zauth_small .zauth_ya{
+    background: url(y_small.png) no-repeat;
+}
+.zauth_small .zauth_gl{
+    background: url(g_small.png) no-repeat;
+}
+.zauth_small .zauth_mr{
+    background: url(m_small.png) no-repeat;
+}
+.zauth_small .zauth_tm{
+    background: url(t_small.png) no-repeat;
+}
+/* normal */
+.zauth a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin-right: 30px;
+    margin-bottom: 0.2rem;
+}
+.zauth .zauth_vk{
+    background-image: url(v.png);
+}
+.zauth .zauth_ok{
+    background-image: url(o.png);
+}
+.zauth .zauth_fb{
+    background-image: url(f.png);
+}
+.zauth .zauth_ya{
+    background-image: url(y.png);
+}
+.zauth .zauth_gl{
+    background-image: url(g.png);
+}
+.zauth .zauth_mr{
+    background-image: url(m.png);
+}
+.zauth .zauth_tm{
+    background-image: url(t.png);
+}
+/* icms */
+.login_layout h3{
+    margin-top: 0;
+}
+/* icons */
+.zauth_icons a{
+    margin-bottom: 0.2rem;
+}

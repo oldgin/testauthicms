@@ -1,0 +1,1 @@
+<?phpclass widgetZauthZauth extends cmsWidget {    public function run() {        $zauth_controller = cmsCore::getController('zauth');        $links = $zauth_controller->getlinks();        $size = $zauth_controller->getOption('size');        return [            'links' => $links,            'size' => $size                ];    }}
