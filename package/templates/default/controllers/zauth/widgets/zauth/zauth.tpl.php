@@ -1,6 +1,6 @@
 <?php
-$this->addTplCSS('controllers/zauth/widgets/zauth/zauth');
-$this->renderControllerChild('zauth','list',[
+$this->addTplCSS('controllers/dbcauth/widgets/dbcauth/dbcauth');
+$this->renderControllerChild('dbcauth','list',[
     'links' => $links,
     'size' => $size
 ]);
