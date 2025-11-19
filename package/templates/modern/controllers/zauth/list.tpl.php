@@ -1,4 +1,4 @@
-<div class="zauth_icons">
+<div class="dbcauth_icons">
 <?php
 $icons['vk'] = ['brands','vk'];
 $icons['ok'] = ['brands','odnoklassniki'];
@@ -10,7 +10,7 @@ $icons['tm'] = ['brands','telegram-plane'];
 foreach ($links as $key => $link){
     if(!empty($link)){
     ?>
-<a rel="nofollow" title="<?php echo constant('LANG_ZAUTH_LINKS_'.strtoupper($key)); ?>" href="<?php echo href_to('zauth',$key); ?>" class="btn btn-primary zauth_<?php echo $key; ?>"><?php html_svg_icon($icons[$key][0], $icons[$key][1]); ?></a>
+<a rel="nofollow" title="<?php echo constant('LANG_DBCAUTH_LINKS_'.strtoupper($key)); ?>" href="<?php echo href_to('dbcauth',$key); ?>" class="btn btn-primary dbcauth_<?php echo $key; ?>"><?php html_svg_icon($icons[$key][0], $icons[$key][1]); ?></a>
 <?php
 }}
 ?>
@@ -20,10 +20,10 @@ if(isset($size) && $size){
     $size = $size / 16;//px to rem
     ?>
 <style>
-    .zauth_icons a{
+    .dbcauth_icons a{
         padding: <?php echo 0.375*$size; ?>rem <?php echo 0.75*$size; ?>rem;
     }
-    .zauth_icons svg{
+    .dbcauth_icons svg{
         font-size: <?php echo $size; ?>rem;
     }
 </style>
